@@ -1,0 +1,222 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.main-container {
+    width: 80%;
+}
+.container-sub-1 {
+    width: 70%;
+}
+.btn {
+    padding: 17px 43px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 7px;
+    border: 0;
+    font-weight: bold;
+    color: white;
+}
+.content-cont {
+    position: absolute;
+    top: 0;
+    z-index: -9;
+}
+
+/* nav style start  */
+.nav-cont {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+.hamburger {
+    display: none;
+}
+.hamb-icon div {
+    height: 2px;
+    width: 27px;
+    background-color: black;
+    margin: 7px;
+}
+#check {
+    width: 37px;
+    transform: translateX(39px);
+    opacity: 0;
+    position: relative;
+    z-index: 999;
+}
+.menus-cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menus {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    text-decoration: none;
+}
+.menus a:link,
+.menus a:hover,
+.menus a:active,
+.menus a:visited {
+    text-decoration: none;
+    color: black;
+}
+@keyframes hamb-top {
+    100% {
+        transform-origin: 5px -1px;
+        transform: rotate(45deg);
+    }
+}
+@keyframes hamb-bt {
+    100% {
+        transform-origin: 7px 5px;
+        transform: rotate(-45deg);
+    }
+}
+@keyframes hamb-top-bc {
+    0% {
+        transform-origin: 5px -1px;
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: 0;
+    }
+}
+@keyframes hamb-bt-bc {
+    0% {
+        transform-origin: 7px 5px;
+        transform: rotate(-45deg);
+    }
+    100% {
+        transform: 0;
+    }
+}
+@keyframes menus-cont-show {
+    0% {
+        transform: translateX(2500px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes menus-cont-hide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(2500px);
+        display: none;
+    }
+}
+/* nav style end  */
+
+/* hero style start */
+.hero-cont {
+    background-image: url(img/line-1.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.hero {
+    width: 85%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    align-items: center;
+    margin-top: 70px;
+}
+.hero-img img {
+    width: 100%;
+}
+.hero-text h1 {
+    font-size: 5em;
+}
+.hero-text p {
+    color: grey;
+}
+/* hero style end  */
+
+/* who style start */
+.who-cont {
+    background-color: #232340;
+}
+.who {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+/* who style end  */
+
+@media screen and (max-width: 1000px) {
+    .main-container {
+        width: 100%;
+    }
+    .nav-cont {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        position: static;
+        margin-bottom: 20px;
+    }
+    .contact {
+        display: none;
+    }
+    .icon-cont {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 99;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .hamburger {
+        display: flex;
+        flex-direction: row;
+        align-self: flex-end;
+        justify-self: end;
+    }
+    .menus-cont {
+        position: absolute;
+        background-color: aquamarine;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        transform: translateX(2000px);
+    }
+    .menus {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .menus-hide {
+        animation: menus-cont-hide 2000ms forwards ease-in;
+    }
+    .menus-show {
+        animation: menus-cont-show 1300ms forwards;
+    }
+    .hamb-top-check {
+        animation: hamb-top 1000ms forwards;
+    }
+    .hamb-bt-check {
+        animation: hamb-bt 1000ms forwards;
+    }
+    .hamb-top-uncheck {
+        animation: hamb-top-bc 1000ms forwards;
+    }
+    .hamb-bt-uncheck {
+        animation: hamb-bt-bc 1000ms forwards;
+    }
+}
