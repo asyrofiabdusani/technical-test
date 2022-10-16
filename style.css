@@ -6,6 +6,25 @@ body {
 }
 
 /* cotainer size  */
+.cont-arrow {
+    width: 4em;
+    height: 4em;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-200 {
+    width: 200%;
+}
+.w-100 {
+    width: 100%;
+}
+.w-95 {
+    width: 95%;
+}
+.w-90 {
+    width: 90%;
+}
 .w-85 {
     width: 85%;
 }
@@ -36,8 +55,53 @@ body {
 .w-40 {
     width: 40%;
 }
+.w-35 {
+    width: 35%;
+}
 .margin-auto {
     margin: 0 auto;
+}
+.h-100 {
+    height: 100%;
+}
+.h-95 {
+    height: 95%;
+}
+.h-90 {
+    height: 90%;
+}
+.h-85 {
+    height: 85%;
+}
+.h-80 {
+    height: 80%;
+}
+.h-75 {
+    height: 75%;
+}
+.h-70 {
+    height: 70%;
+}
+.h-65 {
+    height: 65%;
+}
+.h-60 {
+    height: 60%;
+}
+.h-55 {
+    height: 55%;
+}
+.h-50 {
+    height: 50%;
+}
+.h-45 {
+    height: 45%;
+}
+.h-40 {
+    height: 40%;
+}
+.h-35 {
+    height: 35%;
 }
 
 /* display style  */
@@ -103,6 +167,21 @@ body {
 .align-self-end {
     align-self: flex-end;
 }
+.gap-1 {
+    gap: 1em;
+}
+.gap-1p5 {
+    gap: 1.5em;
+}
+.gap-2 {
+    gap: 2em;
+}
+.gap-3 {
+    gap: 3em;
+}
+.gap-4 {
+    gap: 4em;
+}
 .gap-5 {
     gap: 5em;
 }
@@ -123,8 +202,26 @@ body {
 .fixed {
     position: fixed;
 }
+.top-0 {
+    top: 0;
+}
+.btm-0 {
+    bottom: 0;
+}
+.left-0 {
+    left: 0;
+}
+.right-0 {
+    right: 0;
+}
+.z9 {
+    z-index: 9;
+}
 .z99 {
     z-index: 99;
+}
+.z999 {
+    z-index: 999;
 }
 .z-99 {
     z-index: -99;
@@ -143,8 +240,11 @@ body {
 .text-drpurple {
     color: #232340;
 }
+.text-purple {
+    color: #5468e7;
+}
 
-/* background style  */
+/* background color  */
 .cl-drpurple {
     background-color: #232340;
 }
@@ -168,6 +268,9 @@ body {
 .text-jbtron {
     font-size: 11rem;
 }
+.text-center {
+    text-align: center;
+}
 
 /* img style */
 .logo {
@@ -175,6 +278,9 @@ body {
 }
 .icon {
     height: 2em;
+}
+.arrow {
+    width: 1.8em;
 }
 
 /* button style  */
@@ -266,9 +372,83 @@ body {
 .p-0 {
     padding: 0;
 }
+.p-3 {
+    padding: 3em;
+}
+.py-10 {
+    padding: 10em 0;
+}
 .py {
     padding: 9em 0;
 }
+.pt-1 {
+    padding-top: 1em;
+}
+.pt-2 {
+    padding-top: 2em;
+}
+.pt-3 {
+    padding-top: 3em;
+}
+.pt-4 {
+    padding-top: 4em;
+}
+.pt-5 {
+    padding-top: 5em;
+}
+.pt-10 {
+    padding-top: 10em;
+}
+.pt-27 {
+    padding-top: 27em;
+}
+.pb-1 {
+    padding-bottom: 1em;
+}
+.pb-2 {
+    padding-bottom: 2em;
+}
+.pb-3 {
+    padding-bottom: 3em;
+}
+.pb-4 {
+    padding-bottom: 4em;
+}
+.pb-5 {
+    padding-bottom: 5em;
+}
+.ps-1 {
+    padding-left: 1em;
+}
+.ps-2 {
+    padding-left: 2em;
+}
+.ps-3 {
+    padding-left: 3em;
+}
+.ps-4 {
+    padding-left: 4em;
+}
+.ps-5 {
+    padding-left: 5em;
+}
+.pe-1 {
+    padding-right: 1em;
+}
+.pe-2 {
+    padding-right: 2em;
+}
+.pe-3 {
+    padding-right: 3em;
+}
+.pe-4 {
+    padding-right: 4em;
+}
+.pe-5 {
+    padding-right: 5em;
+}
+
+/* image style  */
 .p-height {
     line-height: 2em;
 }
@@ -292,11 +472,10 @@ body {
 
 /* background style  */
 /* bg-line */
-.bg-line {
+.bg-line-1 {
     position: absolute;
     left: 0;
     right: 0;
-    z-index: -99;
 }
 .bg-line img {
     height: 80%;
@@ -311,11 +490,74 @@ body {
 .bg-shape .line {
     width: 200%;
 }
-.bg-shape .shape {
+.shape {
     transform: translateY(-3em);
     width: 100%;
 }
 
+/* box style  */
+.bx-shadow {
+    width: 100%;
+    border-radius: 2em;
+    box-shadow: 0 17px 17px 0 rgba(82, 82, 82, 0.1);
+}
+.circle-shadow {
+    width: 27em;
+    height: 27em;
+    border-radius: 50%;
+    box-shadow: 0 17px 17px 0 #1b1b31;
+}
+
+/* border style  */
+.br-white {
+    border: 1px solid white;
+}
+.br-right-white {
+    border-right: 1px solid white;
+}
+.br-black-2 {
+    border: 2px solid black;
+}
+.br-radius-2 {
+    border-radius: 2em;
+}
+.br-radius-3 {
+    border-radius: 3em;
+}
+
+/* border style  */
+.br-37 {
+    border-radius: 37px;
+}
+
+/* opacity style  */
+.opacity-1 {
+    opacity: 0.1;
+}
+.opacity-2 {
+    opacity: 0.2;
+}
+.opacity-3 {
+    opacity: 0.3;
+}
+.opacity-4 {
+    opacity: 0.4;
+}
+.opacity-5 {
+    opacity: 0.5;
+}
+.opacity-6 {
+    opacity: 0.6;
+}
+.opacity-7 {
+    opacity: 0.7;
+}
+.opacity-8 {
+    opacity: 0.8;
+}
+.opacity-9 {
+    opacity: 0.9;
+}
 /* nav style start  */
 .nav-cont {
     width: 90%;
