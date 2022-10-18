@@ -858,6 +858,9 @@ body {
     background-repeat: no-repeat;
     background-position-y: center;
 }
+.change-nav-icon {
+    background-image: url(img/logo-wh.png);
+}
 .hamburger {
     display: none;
 }
