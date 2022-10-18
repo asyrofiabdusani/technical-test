@@ -7,41 +7,84 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <nav class="nav-cont align-center">
-            <div class="icon-cont">
-                <div class="icon">
-                    <img src="img/logo.png" alt="" class="logo" />
-                </div>
-                <div class="hamburger">
-                    <input type="checkbox" id="check" />
-                    <div class="hamb-icon">
-                        <div class="top-icon"></div>
-                        <div class="bt-icon"></div>
+        <section>
+            <nav
+                class="w-90 margin-auto h-7 fixed top-0 left-0 right-0 z999 d-grid grid-one-two align-center"
+            >
+                <div class="icon-cont">
+                    <div class="nav-icon"></div>
+                    <div class="hamburger">
+                        <input type="checkbox" id="check" />
+                        <div>
+                            <div class="hamb-icon top-icon"></div>
+                            <div class="hamb-icon bt-icon"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="menus-cont">
-                <div class="menus">
-                    <a href="#">About</a>
-                    <a href="#">Work</a>
-                    <a href="#">Services</a>
-                    <a href="#">Jobs</a>
+                <div class="d-flex just-s-between align-center menus-cont">
+                    <div
+                        class="d-hide d-flex absolute top-0 left-0 right-0 z-99 opacity-1 left-7"
+                    >
+                        <img src="img/line-1.png" alt="" class="" />
+                    </div>
+                    <div class="d-flex gap-5 nav-menus-cont gap-fluid-3">
+                        <a href="#" class="nav-menus active">About</a>
+                        <a href="#" class="nav-menus link-grey">Work</a>
+                        <a href="#" class="nav-menus link-grey">Services</a>
+                        <a href="#" class="nav-menus link-grey">Jobs</a>
+                        <div class="d-hide-flex gap-3 mt-5">
+                            <div
+                                class="socmed-icon d-flex align-center just-center"
+                            >
+                                <img
+                                    src="img/logo-facebook.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </div>
+                            <div
+                                class="socmed-icon d-flex align-center just-center"
+                            >
+                                <img
+                                    src="img/logo-youtube.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </div>
+                            <div
+                                class="socmed-icon d-flex align-center just-center"
+                            >
+                                <img
+                                    src="img/logo-instagram.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn cl-drpurple bt-contact-head text-white">
+                        Contact Us
+                    </button>
                 </div>
-                <button class="btn cl-drpurple bt-contact-head text-white">
-                    Contact Us
-                </button>
-            </div>
-        </nav>
+            </nav>
+        </section>
 
-        <div class="content-cont">
-            <div class="d-flex mb-5">
+        <section>
+            <section>
                 <div
-                    class="d-flex just-center align-center absolute left-0 right-0 z-99"
+                    class="m-hide d-flex just-center align-center absolute left-0 right-0 z-99"
                 >
                     <img src="img/line-1.png" alt="" class="h-85" />
                 </div>
-                <div class="hero w-80 margin-auto d-grid align-center mt-10">
-                    <div class="w-80">
+                <div
+                    class="d-hide d-flex absolute left-19 right-0 z-99 just-end"
+                >
+                    <img src="img/line-1.png" alt="" class="" />
+                </div>
+                <div
+                    class="hero-cont w-80 margin-auto d-grid grid-one-two align-center py-10"
+                >
+                    <div class="w-fluid-75">
                         <h1 class="title text-drpurple">
                             Stand Out from The Crowd.
                         </h1>
@@ -50,132 +93,203 @@
                             building beautiful digital products, brands, and
                             experiences.
                         </p>
-                        <button class="btn mt-5 cl-purple text-white">
+                        <button class="btn mt-5 mt-fluid cl-purple text-white">
                             Recent Work
                         </button>
-                        <div class="d-flex mt-5 align-center">
+                        <div class="m-hide d-flex mt-5 align-center">
                             <div
                                 class="btn-scroll-down cl-pink d-flex just-center align-center me-2"
                             >
                                 <img src="img/arrow-s.png" alt="" />
                             </div>
-                            <p class="text-lg-gray">Scroll Down</p>
+                            <p class="text-lg-gray text-bold">Scroll Down</p>
                         </div>
                     </div>
                     <div class="hero-img">
                         <img src="img/hero-img.png" alt="" class="fluid-img" />
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="cl-drpurple text-white">
-                <div class="absolute left-0 right-0 d-grid grid-one-one">
-                    <img src="img/line-who.png" alt="" class="w-200" />
-                    <img src="img/shape 1.svg" alt="" class="fluid-img shape" />
-                </div>
-                <div class="w-85 margin-auto relative py z99">
-                    <div class="d-grid grid-one-four">
-                        <img src="img/icon.png" alt="" class="icon" />
-                        <div>
-                            <p>
-                                <span class="me-3 text-gray">01</span> Who We
-                                Are
-                            </p>
-                            <h1 class="title w-80">
-                                We Make Designs that Lead and Inspire.
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="d-grid grid-one-four">
-                        <div class="d-flex flex-column just-s-evenly">
-                            <div class="d-grid grid-one-one align-center">
-                                <div class="hor-line cl-white"></div>
-                                <p>2018</p>
-                            </div>
-                            <div class="d-grid grid-one-one align-center">
-                                <div class="hor-line cl-white"></div>
-                                <p>2019</p>
-                            </div>
-                            <div class="d-grid grid-one-one align-center">
-                                <div class="hor-line cl-white"></div>
-                                <p>2020</p>
-                            </div>
-                            <div class="d-grid grid-one-one align-center">
-                                <div class="hor-line cl-white"></div>
-                                <p>2021</p>
-                            </div>
-                            <div class="d-grid grid-one-one align-center">
-                                <div class="hor-line cl-white"></div>
-                                <p>2022</p>
-                            </div>
-                        </div>
+            <section>
+                <div class="cl-drpurple text-white">
+                    <div
+                        class="m-hide absolute left-0 right-0 d-grid grid-one-one"
+                    >
+                        <img src="img/line-who.png" alt="" class="w-200" />
                         <img
-                            src="img/who-we-img.png"
+                            src="img/shape 1.svg"
                             alt=""
-                            class="fluid-img"
+                            class="fluid-img shape"
                         />
                     </div>
-                    <div class="d-grid grid-one-four mt-5">
-                        <div class="vertical-line cl-pink mt-3"></div>
-                        <div class="d-grid grid-one-one">
-                            <div class="w-80 mt-3">
-                                <h1 class="m-0">
-                                    Lorem ipsum dolor, sit amet consectetur
-                                    adipisicing.
-                                </h1>
-                                <p class="text-lg-gray mt-4 p-height">
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipiscing elit. Nam porta sodales leo vitae
-                                    vestibulum. Nullam vel posuere nisi. Donec
-                                    in lobortis arcu.
+                    <div class="py-fluid w-80 margin-auto relative py-10 z99">
+                        <div class="d-grid grid-one-four">
+                            <img
+                                src="img/icon.png"
+                                alt=""
+                                class="icon m-hide"
+                            />
+                            <div>
+                                <p class="text-bold">
+                                    <span class="me-3 text-gray">01</span>
+                                    Who We Are
                                 </p>
-                                <button class="btn cl-purple mt-4 text-white">
-                                    Contact Us
-                                </button>
+                                <h1 class="title w-90">
+                                    We Make Designs that Lead and Inspire.
+                                </h1>
                             </div>
+                        </div>
+                        <div class="d-grid grid-one-four">
                             <div
-                                class="circle-shadow d-flex flex-column just-center align-center just-self-end"
+                                class="d-flex flex-column flex-fluid just-s-evenly"
                             >
-                                <h3 class="text-jbtron m-0 p-0">28</h3>
-                                <h2 class="m-0">Lorem Ipsum</h2>
+                                <div class="mb-3 d-hide-grid w-100 p-0">
+                                    <div class="d-grid grid-one-one-static">
+                                        <div class="d-flex gap-3">
+                                            <div
+                                                class="cont-arrow br-radius-3 d-flex just-center align-center align-self-center fluid-scale"
+                                            >
+                                                <img
+                                                    src="img/arrow-right-wh.png"
+                                                    alt=""
+                                                    class="arrow rotate180"
+                                                />
+                                            </div>
+                                            <div
+                                                class="cont-arrow br-radius-3 d-flex just-center align-center cl-purple align-self-center fluid-scale"
+                                            >
+                                                <img
+                                                    src="img/arrow-right-wh.png"
+                                                    alt=""
+                                                    class="arrow"
+                                                />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex just-self-end w-70">
+                                        <select
+                                            class="br-0 cl-transparent invert w-100"
+                                            id="year-select"
+                                        ></select>
+                                    </div>
+                                </div>
+                                <div class="d-grid grid-one-one align-center">
+                                    <div class="hor-line cl-white m-hide"></div>
+                                    <p class="year-opt m-hide">2018</p>
+                                </div>
+                                <div class="d-grid grid-one-one align-center">
+                                    <div class="hor-line cl-white m-hide"></div>
+                                    <p class="year-opt m-hide">2019</p>
+                                </div>
+                                <div class="d-grid grid-one-one align-center">
+                                    <div class="hor-line cl-white m-hide"></div>
+                                    <p class="year-opt m-hide">2020</p>
+                                </div>
+                                <div class="d-grid grid-one-one align-center">
+                                    <div class="hor-line cl-white m-hide"></div>
+                                    <p class="year-opt m-hide">2021</p>
+                                </div>
+                                <div class="d-grid grid-one-one align-center">
+                                    <div class="hor-line cl-white m-hide"></div>
+                                    <p class="year-opt m-hide">2022</p>
+                                </div>
+                            </div>
+                            <img
+                                src="img/who-we-img.png"
+                                alt=""
+                                class="fluid-img"
+                            />
+                        </div>
+                        <div class="d-grid grid-one-four mt-5">
+                            <div
+                                class="vertical-line cl-pink mt-3 m-hide"
+                            ></div>
+                            <div class="d-grid grid-one-one">
+                                <div class="mt-3">
+                                    <h1 class="m-0 sub-title-2">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit.
+                                    </h1>
+                                    <p class="text-lg-gray mt-4 p-height">
+                                        Lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit. Nam porta sodales leo
+                                        vitae vestibulum. Nullam vel posuere
+                                        nisi. Donec in lobortis arcu.
+                                    </p>
+                                    <button
+                                        class="btn cl-purple mt-3 text-white"
+                                    >
+                                        Contact Us
+                                    </button>
+                                </div>
+                                <div
+                                    class="who-txt-jb circle-shadow d-flex flex-column just-center align-center just-self-end mt-3"
+                                >
+                                    <h3 class="text-jbtron m-0 p-0">28</h3>
+                                    <h2 class="m-0 sub-title-1p5">
+                                        Lorem Ipsum
+                                    </h2>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div>
+            <section>
                 <div
-                    class="d-flex just-center align-center absolute left-0 right-0 z-99"
+                    class="m-hide d-grid grid-one-one absolute left-0 right-0 z-99 h-160"
                 >
-                    <img src="img/line-1.png" alt="" class="h-85" />
+                    <img
+                        src="img/line-5.png"
+                        alt=""
+                        class="w-90 d-flex align-self-end"
+                    />
+                    <img
+                        src="img/line-6.png"
+                        alt=""
+                        class="w-110 d-flex align-self-center"
+                    />
                 </div>
-                <div class="d-grid grid-one-four w-85 margin-auto py">
-                    <img src="img/icon.png" alt="" class="icon" />
+                <div
+                    class="w-80-fluid d-grid grid-one-four margin-auto py-10 py-fluid"
+                >
+                    <img src="img/icon.png" alt="" class="icon m-hide" />
                     <div>
-                        <p class="text-purple mb-3">
+                        <p class="text-purple mb-3 text-bold">
                             <span class="me-3">02</span> You may also like
                         </p>
-                        <h1 class="title text-drpurple m-0">Recent Work</h1>
-                        <p class="text-gray w-40 mt-3 p-height">
+                        <h1 class="title text-drpurple m-0">Recent Works</h1>
+                        <p class="text-gray w-50 mt-3 p-height w-fluid-75">
                             Agency is a full-service agency, busy designing and
                             building beautiful digital products, brands, and
                             experiences.
                         </p>
                         <div class="d-grid grid-one-one gap-5 mt-5">
-                            <div class="d-flex flex-column w-75">
+                            <div class="d-flex flex-column w-90-fluid">
                                 <div
-                                    class="w-fit cl-purple ps-2 pe-2 pt-1 pb-1 br-radius-2 absolute"
+                                    class="w-fit cl-purple ps-2 pe-2 pt-1 pb-1 br-radius-2 text-white absolute translatex-3 m-hide opacity-7"
                                 >
                                     Featured Product
                                 </div>
                                 <img
                                     src="img/bento3d.png"
                                     alt=""
-                                    class="fluid-img"
+                                    class="w-100"
                                 />
+                                <div class="w-fluid-80">
+                                    <h1 class="sub-title-2">
+                                        Bento 3D Illustration
+                                    </h1>
+                                    <p class="text-gray p-height">
+                                        Agency is a full-service agency, busy
+                                        designing and building beautiful digital
+                                        products, brands, and experiences.
+                                    </p>
+                                </div>
                                 <div
-                                    class="br-black-2 cont-arrow br-radius-3 d-flex just-center align-center align-self-end absolute"
+                                    class="bento-arrow br-black-2 cont-arrow br-radius-3 d-flex just-center align-center align-self-end absolute translate3-25"
                                 >
                                     <img
                                         src="img/arrow-right.png"
@@ -183,26 +297,23 @@
                                         class="arrow"
                                     />
                                 </div>
-                                <h1>Bento 3D Illustration</h1>
-                                <p class="text-gray p-height">
-                                    Agency is a full-service agency, busy
-                                    designing and building beautiful digital
-                                    products, brands, and experiences.
-                                </p>
                             </div>
-                            <div class="d-flex flex-column w-75">
-                                <div
-                                    class="w-fit cl-purple ps-2 pe-2 pt-1 pb-1 br-radius-2 absolute"
-                                >
-                                    Featured Product
-                                </div>
+                            <div class="d-flex flex-column w-90-fluid">
                                 <img
                                     src="img/bentovol.png"
                                     alt=""
-                                    class="fluid-img"
+                                    class="w-100"
                                 />
+                                <div class="w-fluid-80">
+                                    <h1>Bento Vol. 3</h1>
+                                    <p class="text-gray p-height">
+                                        Agency is a full-service agency, busy
+                                        designing and building beautiful digital
+                                        products, brands, and experiences.
+                                    </p>
+                                </div>
                                 <div
-                                    class="br-black-2 cont-arrow br-radius-3 d-flex just-center align-center align-self-end absolute"
+                                    class="bento-arrow br-black-2 cont-arrow br-radius-3 d-flex just-center align-center align-self-end absolute translate3-25"
                                 >
                                     <img
                                         src="img/arrow-right.png"
@@ -210,188 +321,443 @@
                                         class="arrow"
                                     />
                                 </div>
-                                <h1>Bento Vol. 3</h1>
+                                <button
+                                    class="btn cl-purple text-white mt-3 d-hide"
+                                >
+                                    Contact Us
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="cl-drpurple text-white">
+                    <div
+                        class="m-hide absolute left-0 right-0 d-grid grid-one-one"
+                    >
+                        <img src="img/line-who.png" alt="" class="w-200" />
+                        <img
+                            src="img/shape 1.svg"
+                            alt=""
+                            class="fluid-img shape"
+                        />
+                    </div>
+                    <div
+                        class="d-hide d-flex absolute left-0 right-0 just-end translatex20 opacity-1"
+                    >
+                        <img src="img/line-1.png" alt="" class="w-100" />
+                    </div>
+                    <div
+                        class="w-80-fluid d-grid grid-one-four margin-auto relative pt-10 pt-fluidz"
+                    >
+                        <img src="img/icon.png" alt="" class="icon m-hide" />
+                        <div>
+                            <p class="text-bold">
+                                <span class="me-3 text-gray">03</span>Folio
+                                Agency
+                            </p>
+                            <h1 class="title">By the Numbers.</h1>
+                            <div class="mt-10 mt-fluid-5">
+                                <div class="d-grid grid-one-one by-numb-cont">
+                                    <div class="mt-10 mt-fluid-5 w-50-fluid">
+                                        <h1 class="text-jbtron m-0">20</h1>
+                                        <div class="d-flex">
+                                            <h1 class="pe-7px">
+                                                Pre Build Scene
+                                            </h1>
+                                            <img
+                                                src="img/fire.png"
+                                                alt=""
+                                                class="h-100 d-flex align-self-center"
+                                            />
+                                        </div>
+                                        <div
+                                            class="divide-line mt-5 mb-5 cl-lg-gray"
+                                        ></div>
+                                        <p class="text-lg-gray p-height">
+                                            Bento is the first fully editable,
+                                            3D visual design system with global
+                                            auto-updatable style guides built
+                                            right in Figma.
+                                        </p>
+                                        <div
+                                            class="d-flex mt-5 align-center m-hide"
+                                        >
+                                            <div
+                                                class="btn-scroll-down cl-purple d-flex just-center align-center me-2"
+                                            >
+                                                <img
+                                                    src="img/arrow-s.png"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <p class="text-lg-gray">Download</p>
+                                        </div>
+                                    </div>
+                                    <div class="w-50 w-fluid-100">
+                                        <div class="d-flex">
+                                            <h1 class="text-jbtron m-0">40</h1>
+                                            <h1 class="title m-0">+</h1>
+                                        </div>
+                                        <h1>Scene Objects</h1>
+                                        <div
+                                            class="divide-line mt-5 mb-5 cl-lg-gray"
+                                        ></div>
+                                        <p class="text-lg-gray p-height">
+                                            Bento is the first fully editable,
+                                            3D visual design system with global
+                                            auto-updatable style guides built
+                                            right in Figma.
+                                        </p>
+                                        <div class="d-flex mt-5 align-center">
+                                            <div
+                                                class="btn-scroll-down cl-purple d-flex just-center align-center me-2"
+                                            >
+                                                <img
+                                                    src="img/arrow-s.png"
+                                                    alt=""
+                                                />
+                                            </div>
+                                            <p class="text-lg-gray">Download</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-hide-grid w-100 p-0 translatey3">
+                                    <div class="d-flex">
+                                        <div
+                                            class="cont-arrow br-radius-3 d-flex just-center align-center align-self-center fluid-scale"
+                                        >
+                                            <img
+                                                src="img/arrow-right-wh.png"
+                                                alt=""
+                                                class="arrow rotate180"
+                                            />
+                                        </div>
+                                        <div
+                                            class="cont-arrow br-radius-3 d-flex just-center align-center cl-purple align-self-center fluid-scale"
+                                        >
+                                            <img
+                                                src="img/arrow-right-wh.png"
+                                                alt=""
+                                                class="arrow"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="w-80-fluid margin-auto d-grid grid-one-seven-one translatey15 translatey7-fluid by-numb-caresoul"
+                    >
+                        <div
+                            class="cont-arrow br-radius-3 d-flex just-center align-center cl-purple align-self-center m-hide"
+                        >
+                            <img
+                                src="img/arrow-right-wh.png"
+                                alt=""
+                                class="arrow rotate180"
+                            />
+                        </div>
+                        <img
+                            src="img/by-the-numb.png"
+                            alt=""
+                            class="w-100 fluid-img-2"
+                        />
+                        <div
+                            class="cont-arrow br-radius-3 d-flex just-center align-center cl-purple just-self-end align-self-center m-hide"
+                        >
+                            <img
+                                src="img/arrow-right-wh.png"
+                                alt=""
+                                class="arrow"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="py-10 mt-10 py-fluid">
+                    <div
+                        class="m-hide d-flex just-center align-center absolute left-0 right-0 z-99"
+                    >
+                        <img src="img/line-1.png" alt="" class="h-85" />
+                    </div>
+                    <div
+                        class="d-hide d-flex absolute left-0 right-0 just-end translatex20 z-99"
+                    >
+                        <img src="img/line-1.png" alt="" class="w-100" />
+                    </div>
+                    <div
+                        class="w-80-fluid d-grid grid-one-four margin-auto mt-5"
+                    >
+                        <img src="img/icon.png" alt="" class="icon m-hide" />
+                        <div class="d-grid grid-one-onepfive">
+                            <div class="w-85-fluid">
+                                <p class="text-purple text-bold">
+                                    <span class="me-3">04</span>
+                                    We are hiring
+                                </p>
+                                <h1 class="title">Jobs</h1>
                                 <p class="text-gray p-height">
                                     Agency is a full-service agency, busy
                                     designing and building beautiful digital
                                     products, brands, and experiences.
                                 </p>
+                                <div class="d-flex mt-5 align-center m-hide">
+                                    <div
+                                        class="btn-scroll-down cl-pink d-flex just-center align-center me-2"
+                                    >
+                                        <img
+                                            src="img/arrow-s.png"
+                                            alt=""
+                                            class="rotate-90"
+                                        />
+                                    </div>
+                                    <p class="text-lg-gray">
+                                        Available <br />
+                                        Jobs
+                                    </p>
+                                </div>
+                            </div>
+                            <div
+                                class="d-flex flex-column gap-2 gap-fluid-1 mt-4 cl-white"
+                            >
+                                <div class="bx-shadow">
+                                    <div class="p-3">
+                                        <div class="d-flex align-center">
+                                            <h1 class="m-0">
+                                                Graphic Designer
+                                            </h1>
+                                            <div
+                                                class="cont-p gradient-purple br-radius-3 d-flex align-center just-center text-white ms-1"
+                                            >
+                                                <p>2</p>
+                                            </div>
+                                        </div>
+                                        <p>2 years experience</p>
+                                        <img
+                                            src="img/arrow-right.png"
+                                            alt=""
+                                            class="mt-1"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="bx-shadow cl-drpurple text-white">
+                                    <div class="d-grid grid-two-one">
+                                        <div class="ps-3 pt-3 pb-3">
+                                            <h1 class="m-0">Visual Designer</h1>
+                                            <p>2 years experience</p>
+                                            <img
+                                                src="img/arrow-right-wh.png"
+                                                alt=""
+                                                class="mt-1"
+                                            />
+                                        </div>
+                                        <div
+                                            class="d-flex align-center just-center m-hide mt-1 me-1 mb-1"
+                                        >
+                                            <img
+                                                src="img/visual-designer.png"
+                                                alt=""
+                                                class="w-100"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bx-shadow">
+                                    <div class="p-3">
+                                        <h1 class="m-0">Art Director</h1>
+                                        <p>2 years experience</p>
+                                        <img
+                                            src="img/arrow-right.png"
+                                            alt=""
+                                            class="mt-1"
+                                        />
+                                    </div>
+                                </div>
+                                <div class="bx-shadow">
+                                    <div class="p-3">
+                                        <div class="d-flex align-center">
+                                            <h1 class="m-0">
+                                                Graphic Designer
+                                            </h1>
+                                            <div
+                                                class="cont-p gradient-purple br-radius-3 d-flex align-center just-center text-white ms-1"
+                                            >
+                                                <p>6</p>
+                                            </div>
+                                        </div>
+                                        <p>2 years experience</p>
+                                        <img
+                                            src="img/arrow-right.png"
+                                            alt=""
+                                            class="mt-1"
+                                        />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="cl-drpurple text-white">
-                <div class="absolute left-0 right-0 d-grid grid-one-one">
-                    <img src="img/line-who.png" alt="" class="w-200" />
-                    <img src="img/shape 1.svg" alt="" class="fluid-img shape" />
-                </div>
-                <div class="d-grid grid-one-four w-85 margin-auto relative py">
-                    <img src="img/icon.png" alt="" class="icon" />
-                    <div>
-                        <p>
-                            <span class="me-3 text-gray">03</span>Folio Agency
-                        </p>
-                        <h1 class="sub-title">By the Numbers.</h1>
-                        <div class="by-numb-content">
-                            <div class="d-grid grid-one-one">
-                                <div class="by-numb-content mt-27 w-50">
-                                    <h1 class="text-jbtron m-0">20</h1>
-                                    <h1>Pre Build Scene</h1>
-                                    <div
-                                        class="divide-line mt-5 mb-5 cl-white"
-                                    ></div>
-                                    <p class="text-lg-gray p-height">
-                                        Bento is the first fully editable, 3D
-                                        visual design system with global
-                                        auto-updatable style guides built right
-                                        in Figma.
-                                    </p>
-                                    <div class="d-flex mt-5 align-center">
-                                        <div
-                                            class="btn-scroll-down cl-purple d-flex just-center align-center me-2"
-                                        >
-                                            <img src="img/arrow-s.png" alt="" />
-                                        </div>
-                                        <p class="text-lg-gray">Download</p>
-                                    </div>
-                                </div>
-                                <div class="by-numb-content w-50">
-                                    <h1 class="text-jbtron m-0">
-                                        40<span>+</span>
-                                    </h1>
-                                    <h1>Scene Objects</h1>
-                                    <div
-                                        class="divide-line mt-5 mb-5 cl-white"
-                                    ></div>
-                                    <p class="text-lg-gray p-height">
-                                        Bento is the first fully editable, 3D
-                                        visual design system with global
-                                        auto-updatable style guides built right
-                                        in Figma.
-                                    </p>
-                                    <div class="d-flex mt-5 align-center">
-                                        <div
-                                            class="btn-scroll-down cl-purple d-flex just-center align-center me-2"
-                                        >
-                                            <img src="img/arrow-s.png" alt="" />
-                                        </div>
-                                        <p class="text-lg-gray">Download</p>
-                                    </div>
-                                </div>
+            <section>
+                <div
+                    class="top-footer w-80-fluid margin-auto cl-purple br-radius-5 text-white"
+                >
+                    <div
+                        class="m-hide d-flex align-center absolute left-21 right-0 z9 opacity-1"
+                    >
+                        <img src="img/line-1.png" alt="" class="h-85" />
+                    </div>
+                    <div class="d-flex absolute left-7 right-0 z9 opacity-1">
+                        <img src="img/line-1.png" alt="" class="h-85" />
+                    </div>
+                    <div
+                        class="w-100 py-10 d-flex flex-column align-center just-center br-white relative z99 py-fluid"
+                    >
+                        <img src="img/icon.png" alt="" class="icon m-hide" />
+                        <img
+                            src="img/SpeachBubble V2.png"
+                            alt=""
+                            class="buble mb-2 d-hide"
+                        />
+                        <div class="d-flex w-100 align-center just-center">
+                            <img src="img/👋.png" alt="" class="me-1" />
+                            <p>Say hello</p>
+                        </div>
+                        <h3 class="w-35-fluid margin-auto text-center">
+                            A design team building a curated marketplace for UI
+                            designers.
+                        </h3>
+                    </div>
+                    <div class="d-grid grid-one-one align-center">
+                        <div
+                            class="d-flex flex-column br-right-white py-10 py-fluid"
+                        >
+                            <div class="top-footer-lets w-55-fluid ms-10">
+                                <h1 class="sub-title">
+                                    Let’s talk about your next project
+                                </h1>
                             </div>
-                            <div class="by-numb-caresoul d-flex gap-5">
-                                <div></div>
+                            <button
+                                class="btn text-purple ms-2 me-2 d-hide cl-white"
+                            >
+                                Contact Us
+                            </button>
+                        </div>
+                        <div class="d-flex flex-column py-10 m-hide">
+                            <div class="ms-10 me-3">
                                 <img
-                                    src="img/by-the-numb.png"
+                                    src="img/SpeachBubble V2.png"
                                     alt=""
-                                    class="fluid-img"
+                                    class="buble mb-2"
                                 />
-                                <div></div>
+                                <div class="d-grid grid-two-one">
+                                    <h2>Invest in your designs today!</h2>
+                                    <div
+                                        class="br-white-2 cont-arrow br-radius-3 d-flex just-center align-center just-self-end"
+                                    >
+                                        <img
+                                            src="img/arrow-right-wh.png"
+                                            alt=""
+                                            class="arrow"
+                                        />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
-            <div class="py">
+            <section>
                 <div
-                    class="d-flex just-center align-center absolute left-0 right-0 z-99"
+                    class="m-hide d-flex just-end absolute left-0 right-7 z-99 h-75 opacity-4"
                 >
-                    <img src="img/line-1.png" alt="" class="h-85" />
-                </div>
-                <div class="d-grid grid-one-four w-85 margin-auto py">
-                    <img src="img/icon.png" alt="" class="icon" />
-                    <div class="d-grid grid-one-one">
-                        <div class="w-60">
-                            <h1 class="title m-0">Jobs</h1>
-                            <p class="text-gray p-height">
-                                Agency is a full-service agency, busy designing
-                                and building beautiful digital products, brands,
-                                and experiences.
-                            </p>
-                        </div>
-                        <div class="d-flex flex-column gap-1p5">
-                            <div class="bx-shadow p-3">
-                                <h1>Graphic Designer</h1>
-                                <p>2 years experience</p>
-                            </div>
-                            <div class="bx-shadow p-3 cl-drpurple text-white">
-                                <h1>Graphic Designer</h1>
-                                <p>2 years experience</p>
-                            </div>
-                            <div class="bx-shadow p-3">
-                                <h1>Graphic Designer</h1>
-                                <p>2 years experience</p>
-                            </div>
-                            <div class="bx-shadow p-3">
-                                <h1>Graphic Designer</h1>
-                                <p>2 years experience</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="w-85 margin-auto cl-purple br-37 text-white">
-                <div
-                    class="d-flex just-center align-center absolute left-0 right-0 z9 opacity-1"
-                >
-                    <img src="img/line-1.png" alt="" class="h-85" />
+                    <img src="img/line-1.png" alt="" class="object" />
                 </div>
                 <div
-                    class="py-10 d-flex flex-column align-center just-center br-white relative z99"
+                    class="d-hide d-flex absolute left-0 right-0 z-99 h-80 opacity-7 translate-12-10"
                 >
-                    <img src="img/icon.png" alt="" class="icon" />
-                    <p>Say hello</p>
-                    <h3>
-                        A design team building a curated marketplace for UI
-                        designers.
-                    </h3>
+                    <img src="img/line-1.png" alt="" class="object" />
                 </div>
-                <div class="d-grid grid-one-one">
-                    <div
-                        class="d-flex flex-column align-center just-center br-right-white py-10"
+                <div
+                    class="d-flex flex-column align-center just-center w-80 margin-auto pt-10 pt-fluid"
+                >
+                    <img src="img/logo.png" alt="" class="logo" />
+                    <p
+                        class="text-lg-gray w-45-fluid text-center mt-3 p-height"
                     >
-                        <h1 class="sub-title">
-                            Let’s talk about your next project
-                        </h1>
-                    </div>
+                        Agency is a full-service agency, busy designing and
+                        building beautiful digital products, brands, and
+                        experiences.
+                    </p>
                     <div
-                        class="d-flex flex-column align-center just-center py-10"
+                        class="d-hide w-100 br-gray br-radius-1 ps-2 pe-2 cl-white mt-2 mb-2"
                     >
-                        Invest in your designs today!
+                        <select
+                            class="cl-transparent br-0 w-100 h-4 text-gray"
+                            id="footer-select"
+                        ></select>
+                    </div>
+                    <div class="footer-menu d-flex just-s-evenly mt-3 w-35">
+                        <a href="#" class="active footer-menu-opt m-hide"
+                            >About</a
+                        >
+                        <a href="#" class="link-grey footer-menu-opt m-hide"
+                            >Work</a
+                        >
+                        <a href="#" class="link-grey footer-menu-opt m-hide"
+                            >Services</a
+                        >
+                        <a href="#" class="link-grey footer-menu-opt m-hide"
+                            >Jobs</a
+                        >
+                    </div>
+                    <div class="m-hide divide-line cl-lg-gray mt-3 mb-3"></div>
+                    <div class="bt-footer d-grid grid-one-one w-100">
+                        <p class="text-lg-gray">© 2020, UI8 LLC.</p>
+                        <div
+                            class="d-flex align-center just-self-end gap-5 gap-fluid-1"
+                        >
+                            <p class="m-hide text-purple">Follow us</p>
+                            <div
+                                class="socmed-icon d-flex align-center just-center active-menu"
+                            >
+                                <img
+                                    src="img/logo-facebook.png"
+                                    alt=""
+                                    class="icon active-menu-invert"
+                                />
+                            </div>
+                            <div
+                                class="socmed-icon d-flex align-center just-center"
+                            >
+                                <img
+                                    src="img/logo-youtube.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </div>
+                            <div
+                                class="socmed-icon d-flex align-center just-center"
+                            >
+                                <img
+                                    src="img/logo-instagram.png"
+                                    alt=""
+                                    class="icon"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div
-                class="d-flex flex-column align-center just-center w-85 margin-auto py"
-            >
-                <img src="img/logo.png" alt="" class="logo" />
-                <p class="text-gray w-35 text-center mt-3 p-height">
-                    Agency is a full-service agency, busy designing and building
-                    beautiful digital products, brands, and experiences.
-                </p>
-                <div class="d-flex just-s-evenly mt-3 w-35">
-                    <a href="#">About</a>
-                    <a href="#">Work</a>
-                    <a href="#">Services</a>
-                    <a href="#">Jobs</a>
-                </div>
-                <div class="divide-line cl-purple mt-3 mb-3"></div>
-                <div class="d-grid grid-one-one w-100">
-                    <p>© 2020, UI8 LLC.</p>
-                    <div class="d-flex just-self-end">
-                        <p>Follow us</p>
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                        <img src="" alt="" />
-                    </div>
-                </div>
-            </div>
-        </div>
+            </section>
+        </section>
 
         <script src="script.js"></script>
     </body>
